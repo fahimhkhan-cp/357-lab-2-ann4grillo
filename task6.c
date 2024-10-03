@@ -18,6 +18,7 @@ int main(int argc, char *argv[]){
 
 	char *line1 = NULL, *line2 = NULL, *cur = NULL;
     size_t size = 0;
+ssize_t chars_read;
     
 
     while(getline(&cur, &size, fp) != EOF){
